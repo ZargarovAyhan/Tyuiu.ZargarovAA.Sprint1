@@ -12,6 +12,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.V13.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
+
             var res = ds.Calculate();
             Assert.AreEqual(1, res);
 

@@ -19,7 +19,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.V13
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы C#                                          *");
             Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Вариант #13                                                              *");
             Console.WriteLine("* Выполнил Заргаров А. А. | ИИПб-23-2                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -29,7 +29,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.V13
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 10 / (2 + 3)                                                            *");
+            Console.WriteLine("* 24 / (6*2) - 24 / 6 / 4                                                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");

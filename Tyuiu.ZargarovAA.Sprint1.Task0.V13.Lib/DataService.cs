@@ -12,7 +12,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.V13.Lib
     {
         public double Calculate()
         {
-            return 24 / (6 * 2) - 24 / 6 / 4;
+            return 24 / (6*2) - 24 / 6 / 4;
         }
     }
 }
