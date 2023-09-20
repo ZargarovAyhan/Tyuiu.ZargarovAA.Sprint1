@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.ZargarovAA.Sprint1.Task1.V11.Lib;
-
 namespace Tyuiu.ZargarovAA.Sprint1.Task1.V11
 {
     class Program
@@ -12,7 +11,6 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task1.V11
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
             Console.Title = Console.Title = "Спринт #1| Выполнил: Заргаров А. А. | ИИПб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -28,23 +26,16 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task1.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
             double x, y;
-
             Console.WriteLine("Введите значений X:");
             x = Convert.ToDouble(Console.ReadLine());
-
             Console.WriteLine("Введите значений y:");
             y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************"); 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
             Console.WriteLine(ds.Calculate(x, y));
-
             Console.ReadLine();
         }
     }
 }
-         
