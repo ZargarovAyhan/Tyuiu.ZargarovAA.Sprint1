@@ -32,6 +32,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task1.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.ReverseNumber(a));
+            Console.ReadLine();
         }
     }
 }
