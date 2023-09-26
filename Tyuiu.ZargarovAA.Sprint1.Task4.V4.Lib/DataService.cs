@@ -12,7 +12,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task4.V4.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = ((1 + (x * y)) / Math.Abs(x + 2));
+            var res = Math.Round(((1 + (x * y)) / Math.Abs(x + 2)), 3);
             return res;
             
         }

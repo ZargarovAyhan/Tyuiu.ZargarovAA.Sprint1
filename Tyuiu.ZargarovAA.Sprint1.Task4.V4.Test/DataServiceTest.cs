@@ -11,9 +11,9 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task4.V4.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = -3;
-            double y = -1;
-            double wait = 4;
+            double x = 4;
+            double y = 3;
+            double wait = 2.167;
                 var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }

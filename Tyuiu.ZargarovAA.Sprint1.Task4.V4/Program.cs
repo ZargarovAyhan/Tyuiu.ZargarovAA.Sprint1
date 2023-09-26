@@ -31,7 +31,7 @@ namespace Tyuiu.ZargarovAA.Sprint1.Task4.V4
             Console.Write("Введите значение Y: ");
             y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("****************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
+            Console.WriteLine("* РЕЗУЛЬТАТ ( с округлением до 3 цифр после запятой ):                                                               *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine(ds.Calculate(x,y));
             Console.ReadLine();
